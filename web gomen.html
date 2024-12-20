@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Roti Lezat</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #fce4ec, #f8bbd0);
+            color: #5a2d66;
+        }
+
+        header {
+            background-color: #ffccbc;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+            color: #6a1b4d;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+            color: #6a1b4d;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #f783ac;
+        }
+
+        section {
+            padding: 30px;
+            text-align: center;
+        }
+
+        section h2 {
+            font-size: 2em;
+            margin-bottom: 15px;
+        }
+
+        section p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+
+        .card-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .card {
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            max-width: 300px;
+            text-align: left;
+        }
+
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+
+        .card h3 {
+            margin: 15px;
+            font-size: 1.5em;
+            color: #6a1b4d;
+        }
+
+        .card p {
+            margin: 15px;
+            color: #5a2d66;
+            line-height: 1.6;
+        }
+
+        footer {
+            background-color: #ffccbc;
+            padding: 10px;
+            text-align: center;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 1em;
+            color: #6a1b4d;
+        }
+
+        @media (max-width: 768px) {
+            section {
+                padding: 20px;
+            }
+
+            .card-container {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>"Selamat Datang di Toko Roti Lezattt"</h1>
+        <nav>
+            <a href="#about">Tentang</a>
+            <a href="#gallery">Galeri</a>
+            <a href="#contact">Kontak</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>Tentang Kami</h2>
+        <p>Hai! Kami adalah toko roti yang dengan senang hati menyajikan roti, kue, dan pastry yang dibuat dengan penuh cinta. Setiap gigitan dari produk kami dibuat untuk membawa senyuman dan kehangatan ke harimu. Yuk, nikmati momen manismu bersama kami!</p>
+
+    <section id="gallery">
+        <h2>Galeri Produk</h2>
+        <div class="card-container">
+            <div class="card">
+                <img src="hu.webp" alt="Roti Sourdough">
+                <h3>Roti Sourdough</h3>
+                <p>Roti sehat dengan rasa asam yang khas dan tekstur yang sempurna.</p>
+            </div>
+            <div class="card">
+                <img src="gg.webp" alt="Kue Cokelat">
+                <h3>Kue Cokelat</h3>
+                <p>Kelezatan manis yang tak tertandingi, cocok untuk segala acara.</p>
+            </div>
+            <div class="card">
+                <img src="hh.webp" alt="Croissant">
+                <h3>Croissant</h3>
+                <p>Pastry renyah dengan lapisan mentega yang lembut di dalamnya.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Toko Roti Lezat. Semua Hak Dilindungi.</p>
+    </footer>
+</body>
+</html>
